@@ -41,7 +41,7 @@ while True:
  print(s.recv(1024).decode())
  s.send("acknowledgement recived from the server".encode())
 ```
-## OUPUT
+## OUTPUT
 ### CLIENT
 ![Screenshot 2024-05-15 204032](https://github.com/Yogesh-Yogi-1/2b_SLIDING_WINDOW_PROTOCOL/assets/148514598/35348e01-437a-4cee-9527-919dc755e959)
 ### SERVER
